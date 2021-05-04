@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description"content="Myfirst HTML5 Web Page" />
+    <meta name="keywords"content="HTML5, CSS3, XML, JSON, JavaScript" />
+    <meta name="author"content="John Doe" />
+    <meta name="viewport"content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="Styles/style.css">
+
+    <!-- =====BOX ICONS===== -->
+    <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
+
+    <title>Emna Bougharriou Portfolio </title>
+    <link rel="shortcut icon" href="images/img_smallflower.jpg">
+
+</head>
+<body>
+<!--===== HEADER =====-->
+<div class="container">
+ <header class="l-header">
+    <nav class="nav bd-grid">
+        <div>
+            <a href="#" class="nav__logo">MON PORTEFEUILLE PROFESSIONNEL</a>
+        </div>
+
+        <div class="nav__menu" id="nav-menu">
+            <ul class="nav__list">
+                <li class="nav__item"><a href="#Accueil"class="nav__link active" >Accueil</a></li>
+                <li class="nav__item"><a href="#Présentation" class="nav__link">Présentation</a></li>
+                <li class="nav__item"><a href="#Projets" class="nav__link">Projets</a></li>
+                <li class="nav__item"><a href="#Activités" class="nav__link">Activités</a></li>
+            </ul>
+        </div>
+
+        <div class="nav__toggle" id="nav-toggle">
+            <i class='bx bx-menu'></i>
+        </div>
+    </nav>
+ </header>
+
+<main class="l-main">
+    <!--===== Accueil =====-->
+    <section class="home bd-grid" id="Accueil">
+        <div class="home__data">
+            <h2 class="home__title">Bonjour! ,<br>Je suis <span class="home__title-color">Emna Bougharriou</span><br> Ingénieur IT à <span class="home__title-color">SUP'COM</span> </h2>
+
+            <a href="https://www.linkedin.com/in/emna-bougharriou-28b6841b5/" class="button">Contacter Moi</a>
+            <a href="images\emnacv.pdf" class="button">Télécharger CV</a>
+
+
+        </div>
+
+        <div class="home__social" style="margin:0 20px;">
+            <a href="https://www.linkedin.com/in/emna-bougharriou-28b6841b5/"  target="_blank" class="home__social-icon"><i class='bx bxl-linkedin'></i></a>
+            <a href="https://www.facebook.com/emna.bougharriou.5/"  target="_blank" class="home__social-icon"><i class='bx bxl-facebook-circle'></i></a>
+            <a href="https://github.com/Emna-Bougharriou"  target="_blank" class="home__social-icon"><i class='bx bxl-github' ></i></a>
+        </div>
+
+        <div class="home__img">
+            <img src="images/img_smallflower.jpg" style="max-width:80%;height:auto;" alt="images">
+        </div>
+    </section>
+    <!--===== Présentation =====-->
+    <section class="about section " id="Présentation">
+        <h2 class="section-title">Présentation</h2>
+
+        <div class="about__container bd-grid">
+            <div class="about__img">
+                <img src="images/about.jpg" alt="">
+            </div>
+
+            <div>
+                <h2 class="about__subtitle">Je suis Emna</h2>
+                <p class="about__text"> Elève Ingénieur TIC passionnée,pour les nouvelles technologies et la créativité. Intéressé par les projets à fort impact social et financier dans les domaines des données. Je suis passionné par le monde complexe de l'informatique et des nouvelles technologies en particulier, la science de l'intelligence artificielle, la science des données, le domaine du Deep Learning, le développement web et la communication des systémes "Embarquée". Je suis quelqu'une qui est organisée, avec un état d'esprit positive et toujours prête pour s'engager à des nouvelles expériences. .</p>
+            </div>
+        </div>
+    </section>
+
+
+    <!--===== FOOTER =====-->
+ <footer class="footer">
+     <p class="footer__title">Emna Bougharriou</p>
+     <div class="footer__social">
+         <a href="https://www.facebook.com/emna.bougharriou.5/" target="_blank" class="footer__icon"><i class='bx bxl-facebook' ></i></a>
+         <a href="https://www.linkedin.com/in/emna-bougharriou-28b6841b5/" target="_blank" class="footer__icon"><i class='bx bxl-linkedin'></i></a>
+         <a href="https://github.com/Emna-Bougharriou"target="_blank"  class="footer__icon"><i class='bx bxl-github' ></i></a>
+     </div>
+     <p>&#169; 2021 copyright all right reserved</p>
+ </footer>
+
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="scripts/main.js"></script>
+
+</main>
+</div>
+</body>
+</html>
